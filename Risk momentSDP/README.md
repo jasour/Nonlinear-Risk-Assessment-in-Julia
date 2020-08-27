@@ -9,7 +9,7 @@ To run the codes you need the following packages in Julia:
 1) MomentOpt julia package : Pkg.add("MomentOpt")
 2) DynamicPolynomials: Pkg.add("DynamicPolynomials")
 3) SDP solvers like "mosek":  Pkg.add("MosekTools")
-4) (Low-Rank Relaxation)SDP solver "ProxSDP":  Pkg.add("using ProxSDP")
+4) (Low-Rank Relaxation)SDP solver "ProxSDP":  Pkg.add("ProxSDP")
 
 
 
