@@ -6,7 +6,10 @@ We use the solution of the dual SDP to calculate the risk. Solution of the dual 
 
 To run the codes you need the following packages in Julia:
 
-1) MomentOpt julia package by Tillmann Weisser: Pkg.add("MomentOpt")
-2)  SDP solvers like "mosek":  Pkg.add("MosekTools")
-3) DynamicPolynomials: Pkg.add("DynamicPolynomials")
+1) MomentOpt julia package : Pkg.add("MomentOpt")
+2) DynamicPolynomials: Pkg.add("DynamicPolynomials")
+3) SDP solvers like "mosek":  Pkg.add("MosekTools")
+4) (Low-Rank Relaxation)SDP solver "ProxSDP":  Pkg.add("using ProxSDP")
+
+
 
